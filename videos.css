@@ -1,0 +1,8 @@
+.video{
+    display flex;
+align-content:center;
+    width:700px;
+}
+body{
+    background-color: orange;
+}
