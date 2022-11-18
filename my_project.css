@@ -31,8 +31,10 @@ height: fit-content;
     font-size: 30px;
 }
 header{
-    
- background-color: rgba(1, 0, 0, 0.5s);
+    position: fixed;
+    top: 0;
+
+background-color: rgba(0, 0, 0, 0.1);
     justify-content: left;
     display:flex;
     flex-direction: row;
@@ -44,7 +46,7 @@ header image{
     margin-left: 0px;
 }
 header a:hover{
-    color: rgb(51, 51, 51);
+    color: rgb(228, 221, 255);
     background-color: rgba(162, 224, 15, 0.74);
    
 
@@ -60,9 +62,10 @@ header a:hover{
 justify-content:right;
 
 
+
 }
 
-img{
+header .img1{
     width: 70px;
     height: 70px;
     float: left;
@@ -87,14 +90,13 @@ margin-top: 0px;
 
 }
 .moreinformation{
-    transition: background-color 1s,color 1s,height 2s, font-size 1s, padding 1s,transform 1s ,border-radius 1s, text-align 1s;;
+    transition: background-color 1s,color 2s,height 2s, font-size 1s, padding 1s,transform 1s ,border-radius 1s, text-align 1s;
     transition-delay: 0.5s;
 
      width: 170px;
     border-radius: 13px;
     padding: 10px;
-    border-style: solid;
-    border-width: 2px;
+    border: 2px solid;
     text-decoration: none;
    
     margin:30px 0px 0px 580px;
@@ -108,7 +110,7 @@ margin:auto;
 }
 .moreinformation a{
  
-    color: rgb(70, 70, 70);
+    color: rgb(94, 72, 72);
     font-family: sans-serif;
     text-decoration: none;
     margin-left: 10px;
@@ -121,64 +123,47 @@ height: 50px;
 border-radius: 20px;
 padding: 20px;
 text-align:center;
-color: white;
+color: aliceblue;
 
 }
 
+.moreinformation a:hover{
+    color: #f9f9f9;
 
+}
 .moreinformation i{
     text-align: center;
     margin-left: 10px;
 }
-.container{
+header{
     position: relative;
-    display: inline-block;
+
 }
-header:hover .login_menu{
+
+header ul li :hover   ul {
     display: block;
+   list-style: none;
 }
-header:hover .images_menu{
-    display: block;
+
+header ul li ul a {
+list-style: none;
+display:none;
+background-color: #f9f9f9;
+color: black;
+
 }
-.images_menu{
-    
+header ul li  ul {
+    list-style: none;
+    background-color: #f9f9f9;
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 50px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: -1;
-
-}
-.images_menu a{
-
-        height: min-content;
-        display: block;
-        color: black;
-        padding: 10px 10px;
-        margin-top: 40px;
-    
-    
+min-width: 50px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
 }
 .images{
     position: relative;
 }
 .login{
     position: relative;
-}
-.login_menu{
-    z-index: -1;
-    display: none;
-    position: absolute;
-    min-width: 50px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    
-
-}
-.login_menu a{
-    height: min-content;
-    display: block;
-    color: black;
-
-
 }
