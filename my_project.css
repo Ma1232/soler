@@ -110,7 +110,7 @@ margin:auto;
 }
 .moreinformation a{
  
-    color: rgb(94, 72, 72);
+    color: rgb(255, 255, 255);
     font-family: sans-serif;
     text-decoration: none;
     margin-left: 10px;
@@ -128,7 +128,7 @@ color: aliceblue;
 }
 
 .moreinformation a:hover{
-    color: #f9f9f9;
+    color: #ffffff;
 
 }
 .moreinformation i{
@@ -140,19 +140,19 @@ header{
 
 }
 
-header ul li :hover   ul {
+header .ar :hover   header .languages {
     display: block;
    list-style: none;
 }
 
-header ul li ul a {
+header .languages a {
 list-style: none;
 display:none;
 background-color: #f9f9f9;
 color: black;
 
 }
-header ul li  ul {
+header .languages{
     list-style: none;
     background-color: #f9f9f9;
     display: none;
