@@ -1,7 +1,9 @@
 .video{
-    display flex;
-align-content:center;
+    display :flex;
+margin: auto;
+margin-top: 50px;
     width:700px;
+    height: 700px;
 }
 body{
     background-color: orange;

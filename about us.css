@@ -4,95 +4,7 @@ body{
     background-repeat: no-repeat;
     margin: 0;
 }
-.second{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: #9DAAF2;
 
-}
-
-.first{
-font-style: oblique;
-color: #9DAAF2;
-
-}
-.third{
-    background-color: white;
-    border-style: hidden;
-}
-.third a{
-
-    text-decoration: none;
-    color: black;
-    border-color: white;
-    margin: 100px 0px 0px 640px;
-    position: absolute;
-    font-size: 50px;
-    border:1px solid white;
-    border-radius: 22px;
-    padding: 170px;
-    
-}
-.third a:hover{
-    background-color:#FF6A3D;
-    color: white;
-}
-
-.forth{
-height: 80px;
-width: 80px;
-margin-right: 20px;
-
-}
-
-.fifth{
-    color: #9DAAF2;
- margin:  auto;
- width: 220px;
- font-size: 30px;
- text-align: center;
-
-}
-.sixth{
-border-style: hidden;
-
-    padding: 100px 0px 0px 720px;
-}
-.seventh {
-
-   
-    list-style: none;
-    overflow: hidden;
-padding: 20px 20px 10px 20px;
-border-radius: 2px;
-
-border-color: white;
-
-
-}
-.seventh a{
-    color: white;
-text-decoration: none;
-margin: 1px;
-text-align: center;
-font-size: 30px;
-padding-left:10px;
-padding-right: 10px;
-float: left;
-
-
-}
-
-.seventh a:hover{
-    color: white;
-    background-color: purple;
-}
-
-h1{
- 
-    text-align: center;
-    margin:140px 0px 0px 100px ;
-    color: #9DAAF2;
-}
 .readmore{
    display: flex;
     color: white;
@@ -101,6 +13,7 @@ h1{
     border-radius: 25px;
     padding: 10px 30px 10px 30px;
     text-decoration:none;
+    margin:auto;
    margin-top: 30px;
    width:70px;
     text-align: center;
@@ -118,7 +31,30 @@ text-align:center;
   
 
 }
-#footer{
-    color: #8192f1;
-    margin: 2000px 0px 0px 150px ;
+.head_page{
+    display: flex;
+    margin: auto;
+word-break: break-all;
+word-wrap: normal;
+margin-top: 80px;
+color: #9DAAF2;
+text-shadow: 3px 3px 5px rgb(71, 71, 71);
+
+}
+footer{
+    bottom:0;
+    display: flex;
+    text-align: center;
+word-break: break-all;
+word-wrap:break-word;
+margin-top: 100px;
+align-items: flex-end;
+color: #0025fa;
+text-shadow: 5px 5px 8px rgb(71, 71, 71);
+margin-bottom: auto;
+flex-direction: column;
+ 
+  width: 100%;    
+  height: 60px;      
+   
 }

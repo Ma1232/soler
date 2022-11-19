@@ -8,4 +8,8 @@
     resize: both;
     margin: auto;
     padding: 10px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    
 }

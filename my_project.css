@@ -129,14 +129,16 @@ color: aliceblue;
 
 .moreinformation a:hover{
     color: #ffffff;
+    display: flex;
 
-}
-.moreinformation i{
     text-align: center;
     margin-left: 10px;
 }
+.moreinformation i{
+   
+}
 header{
-    position: relative;
+    position: fixed;
 
 }
 
