@@ -1,16 +1,16 @@
 form{
-    width: 400px;
-
-display: inline-block;
+    
+display: flex;
 margin: auto;
-text-align:center;
-margin :50px 0px 0px 750px;
-padding: 50px;
+margin-top: 50px;
 background-color:black;
 border-style: hidden;
 border-radius: 10px;
 color: white;
-height: 600px;
+width: fit-content;
+height: fit-content;
+text-align: center
+
 
 }
 body{
@@ -33,6 +33,7 @@ input{
     border: none;
     outline: none;
     border-bottom: 2px solid rgb(94, 92, 92);
+  
 
 }
 
@@ -71,5 +72,18 @@ select{
     border: none;
     outline: none;
     border-bottom: 2px solid rgb(94, 92, 92);
+
+}
+.form_image{
+    display: inline-block;
+   width: 500px;
+   height: 800px;
+}
+.form_container form{
+     position: absolute;
+          right: 0;
+        margin: 30px auto;
+        text-align: left;
+        margin-left: auto;
 
 }
